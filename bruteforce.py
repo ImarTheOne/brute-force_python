@@ -3,7 +3,7 @@ import string
 import time
 
 def find_matching_combination_hashed(target_hash):
-    ascii_characters = string.ascii_characters  # This includes all ASCII printable characters
+    ascii_characters = string.ascii_lowercase  # This includes all ASCII printable characters
     combinations_tried = 0
     
     # Start with length 1 and increase the length until we find the match
