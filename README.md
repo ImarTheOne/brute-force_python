@@ -40,13 +40,13 @@ This Python script attempts to find a matching combination for a given password 
 
 Benchmark with a laptop with 16Gib of ram:
 
-It runs with about 520'000'000 combinations a minute.
+It runs with about $520'000'000$ combinations a minute.
 
 
 ## Example
 
 ```bash
-$ python password_combination_finder.py
+$ python bruteforce.py
 Is your password hashed? (y/n): y
 Enter the unhashed password to find the hash: Hey!
 Matching combination found: Hey!
