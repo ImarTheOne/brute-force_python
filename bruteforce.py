@@ -25,6 +25,7 @@ def find_matching_combination_hashed(target_hash):
                 return combination_str, combinations_tried
         length += 1
 
+<<<<<<< HEAD
 def find_matching_combination(target):
     ascii_characters = string.printable  # This includes all ASCII printable characters
     combinations_tried = 0
@@ -39,6 +40,11 @@ def find_matching_combination(target):
         length += 1
 
 hashed()
+=======
+# Example usage
+target_variable = input("Which password do you want to crack?")  # Replace this with the actual variable you want to match
+hashed_target = hash(target_variable)
+>>>>>>> 614d9f1fd8d0ee37bec81d12db843f746d049283
 
 start_time = time.time()
 
