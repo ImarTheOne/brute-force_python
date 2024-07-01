@@ -38,8 +38,8 @@ This Python script attempts to find a matching combination for a given password 
 
 ```bash
 $ python password_combination_finder.py
-Enter the password to find: example
-Matching combination found: example
-Time taken: 5.123 seconds
-Combinations tried per minute: 45000.67
+Enter the password to find: Hey!
+Matching combination found: Hey!
+Time taken: 5.06455659866333 seconds
+Combinations tried per minute: 523088986.84
 ```
