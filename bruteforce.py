@@ -37,6 +37,7 @@ def find_matching_combination_hashed(target_hash, hash_alg):
         length += 1
 
 def find_matching_combination_unknownhash(target_hash, hashs):
+    global hash_alg
     ascii_characters = string.printable # This includes all ASCII printable characters
     combinations_tried = 0
     
@@ -77,6 +78,7 @@ if hashedornot == "y":
         matching_combination, combinations_tried = find_matching_combination_hashed(hashed_target, knownhash)
     else:
          matching_combination, combinations_tried = find_matching_combination_unknownhash(hashed_target, hashs)
+         print(f"Algorithm used: {hash_alg}")
 else:
     matching_combination, combinations_tried = find_matching_combination(target_variable)
 
