@@ -28,13 +28,22 @@ This Python script attempts to find a matching combination for a given password 
 
 - Python 3.x
 
+## Generate hash
+
+To generate a hash:
+```bash
+$ python hash.py
+```
+
+All the algorithms written above are featured.
+
 ## Usage
 
 1. Clone this repository or download the script.
 2. Run the script using Python:
 
     ```bash
-    python bruteforce.py
+    $ python bruteforce.py
     ```
 
 3. Follow the prompts:
@@ -48,6 +57,8 @@ This Python script attempts to find a matching combination for a given password 
 Benchmark with a laptop with 16GB of RAM:
 
 It runs at about 520,000,000 combinations per minute.
+
+Recomended: Do not use more than $4$ characters, else it will take a very long time.
 
 ## Example
 
